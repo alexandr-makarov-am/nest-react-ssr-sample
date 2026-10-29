@@ -1,0 +1,13 @@
+{
+  "name": "nestjs-react-ts-ssr-sample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample project for NestJS + React + TS + SSR",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r --parallel --if-present run start:dev",
+    "build": "pnpm -r --parallel --if-present run build",
+    "test": "pnpm -r --if-present run test",
+    "lint": "pnpm -r --if-present run lint"
+  }
+}
